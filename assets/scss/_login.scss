@@ -1,0 +1,19 @@
+// login register css
+.login-page-wrapper {
+    --bg-img: url('../images/feedback-image.jpg');
+    --bg-position: center top;
+}
+.register-wrapper {
+    --bg-img: url('../images/feedback-image.jpg');
+}
+.lost-password-wrapper {
+    --bg-img: url('../images/feedback-image.jpg');
+}
+.bg-img {
+    background-image: var(--bg-img);
+    background-size: cover;
+    background-position: var(--bg-position);
+}
+.login-page-form {
+    .form-control {}
+}

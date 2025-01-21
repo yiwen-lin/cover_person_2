@@ -1,0 +1,31 @@
+.scroll-move {
+    position: relative;
+    height: 324px;
+    .scrolling-text {
+        position:absolute;
+        white-space: nowrap;
+        z-index: 1;
+        left: 48px;
+        transition: transform .08s ease-in-out;
+    }
+    @include media-breakpoint-down(xxl){
+        height: 223px; 
+    }
+    @include media-breakpoint-down(xl){
+        height: 178px; 
+    }
+    @include media-breakpoint-down(lg){
+        height: 150px; 
+        .scrolling-text {           
+            left: 15px;
+        }
+    }
+    @include media-breakpoint-down(md){
+        height: 95px; 
+    }        
+} 
+.section-banner{
+    .scrolling-text {        
+        left: 2px;
+    }
+}
